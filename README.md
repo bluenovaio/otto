@@ -9,9 +9,10 @@ Install the package and take a look at the commands available. If you have issue
 
 **npm**
 ```
+npm i @bluenova/otto
 ```
 
 **yarn**
 ```
-yarn add bluenova/otto
+yarn add @bluenova/otto
 ```

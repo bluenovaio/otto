@@ -48,6 +48,5 @@ describe('example', () => {
 ### Running Commands
 
 ```shell
-$ otto --help
 $ otto test
 ```

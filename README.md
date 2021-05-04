@@ -4,7 +4,7 @@
 [![Publish](https://github.com/bluenovaio/otto/actions/workflows/publish.yaml/badge.svg)](https://github.com/bluenovaio/otto/actions/workflows/publish.yaml)
 [![codecov](https://codecov.io/gh/bluenovaio/otto/branch/main/graph/badge.svg?token=LYQZKFGV28)](https://codecov.io/gh/bluenovaio/otto)
 
-Otto helps users create and maintain e2e tests. Unlike other tools we truly otto-mate your e2e testing workflow.
+Otto helps developers create and maintain e2e tests. Unlike other tools we truly "otto-mate" your e2e testing workflow.
 
 ## Getting Started
 

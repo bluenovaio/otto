@@ -33,7 +33,7 @@ jobs:
       - name: Start Test Server
         run: pm2 start ./testing/site/server.js
       - name: Start Otto Server
-        run: pm2 start ./node_modules/otto-server/dist/server.js
+        run: pm2 start ./node_modules/@bluenova/otto-server/dist/bin/www.js
       - name: Test
         run: yarn test
       - name: Stop Servers

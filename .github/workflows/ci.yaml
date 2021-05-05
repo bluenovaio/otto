@@ -28,12 +28,16 @@ jobs:
         run: yarn format
       - name: Lint
         run: yarn lint
+      - name: Add pm2 package
+        run: npm i -g pm2
       - name: Start Test Server
-        run: node ./testing/site/server.js
+        run: pm2 start ./testing/site/server.js
       - name: Start Otto Server
-        run: node ./node_modules/otto-server/dist/server.js
+        run: pm2 start ./node_modules/otto-server/dist/server.js
       - name: Test
         run: yarn test
+      - name: Stop Servers
+        run: pm2 stop all
       - name: Upload Code Coverage
         uses: codecov/codecov-action@v1
         with:

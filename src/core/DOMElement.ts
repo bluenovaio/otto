@@ -1,4 +1,4 @@
-import * as ottoBrowser from '../../../otto-browser/src/main';
+import * as ottoBrowser from '@bluenova/otto-browser';
 import { v4 as uuid } from 'uuid';
 import * as _ from 'lodash';
 
